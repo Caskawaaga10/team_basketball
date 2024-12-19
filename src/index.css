@@ -1,0 +1,50 @@
+/* Global styles */
+:root {
+  --primaryClr: #fe4e37;
+  --secondaryClr: #fffaf9;
+  --bgClr: #f8f9fd;
+  --white: #ffffff;
+  --black: black;
+  --textclr: #4f5e71;
+  --smallText: 12px;
+  --bodyText: 16px;
+  --subTitle: 18px;
+  --heading: 26px;
+  --fontFamily: "Lato", sans-serif;
+  --fontFamily1: "Libre Baskerville", serif;
+}
+
+html, body {
+  font-family: var(--fontFamily);
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+body {
+  background-color: var(--bgClr);
+  color: var(--textclr);
+}
+
+/* Tailwind's base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Example of adding custom styles if needed */
+body {
+  font-size: var(--bodyText);
+  line-height: 24px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.937rem;
+  padding-right: 0.937rem;
+}
+
+.font-bold {
+  font-weight: 800 !important;
+}
