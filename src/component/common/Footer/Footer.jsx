@@ -38,7 +38,7 @@ const Footer = () => {
           {/* Logo Section */}
           <div className="flex items-center mb-8">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Telesom_logo.png" // Replace with your logo URL
+              src="https://media.istockphoto.com/id/1555616375/vector/basketball-club-logo-basketball-club-emblem-design-template.jpg?s=612x612&w=0&k=20&c=0gCiSZRbVE5KBPpYoV9TDAgSeMaFTqwumL4XA3XRxG4=" // Replace with your logo URL
               alt="Company Logo"
               className="h-16 w-auto mr-4"
             />

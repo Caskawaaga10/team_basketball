@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import heroImage from "../assets/images/gallery/g2.jpg";
+import heroImage from "../assets/images/alumni/img1.jpg";
 
 const Alumni = () => {
   const [selectedAlumnus, setSelectedAlumnus] = useState(null);

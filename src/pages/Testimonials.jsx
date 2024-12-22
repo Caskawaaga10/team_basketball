@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import heroImage from "../assets/images/gallery/g2.jpg";
-import playerImage1 from "../assets/images/gallery/g2.jpg";
-import playerImage2 from "../assets/images/gallery/g5.jpg";
-import playerImage3 from "../assets/images/gallery/g7.jpg";
+import heroImage from "../assets/images/gallery/g1.jpg";
+import playerImage1 from "../assets/images/gallery/g2.avif";
+import playerImage2 from "../assets/images/gallery/g3.jpg";
+import playerImage3 from "../assets/images/gallery/g7.avif";
 
 const testimonials = [
   {

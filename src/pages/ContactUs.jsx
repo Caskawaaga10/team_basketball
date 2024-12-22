@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import image from "../assets/images/new/contact-us.png";
-import heroImage from "../assets/images/gallery/g3.jpg";
+import heroImage from "../assets/images/contact/img1.webp";
 
 const ContactUs = () => {
   useEffect(() => {
@@ -15,9 +15,9 @@ const ContactUs = () => {
             className="bg-cover bg-center h-96 flex items-center justify-center text-white"
             style={{ backgroundImage: `url(${heroImage})` }}
           >
-            <div className="bg-black bg-opacity-50 p-8 rounded">
+            {/* <div className="bg-black bg-opacity-50 p-8 rounded">
               <h1 className="text-4xl font-bold mb-4">ContactUs</h1>
-            </div>
+            </div> */}
           </section>
 
       {/* Main Section */}

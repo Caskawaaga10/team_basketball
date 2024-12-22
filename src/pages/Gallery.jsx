@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import heroImage from "../assets/images/gallery/e.webp"; // Placeholder image for the hero section
 import galleryPhoto1 from "../assets/images/gallery/g1.jpg";
-import galleryPhoto2 from "../assets/images/gallery/g2.jpg";
+import galleryPhoto2 from "../assets/images/gallery/g2.avif";
 import galleryPhoto3 from "../assets/images/gallery/g3.jpg";
 import galleryPhoto4 from "../assets/images/gallery/g4.jpg";
-import galleryPhoto5 from "../assets/images/gallery/g5.jpg";
-import galleryPhoto6 from "../assets/images/gallery/g6.jpg";
+import galleryPhoto5 from "../assets/images/gallery/g5.webp";
+import galleryPhoto6 from "../assets/images/gallery/g6.webp";
 
 const Gallery = () => {
   const [modalImage, setModalImage] = useState(null);

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import heroImage from "../assets/images/gallery/g2.jpg"; // Placeholder image for the hero section
-import articleImage from "../assets/images/gallery/g1.jpg"; // Placeholder image for articles
+import heroImage from "../assets/images/gallery/g5.webp"; // Placeholder image for the hero section
+import articleImage from "../assets/images/gallery/g2.avif"; // Placeholder image for articles
 
 const Blog = () => {
   useEffect(() => {

@@ -1,9 +1,9 @@
 import React from "react";
-import heroImage from "../assets/images/gallery/g2.jpg";
-import merchandise1 from "../assets/images/gallery/g2.jpg";
+import heroImage from "../assets/images/gallery/g1.jpg";
+import merchandise1 from "../assets/images/gallery/g2.avif";
 import merchandise2 from "../assets/images/gallery/g3.jpg";
-import merchandise3 from "../assets/images/gallery/g5.jpg";
-import merchandise4 from "../assets/images/gallery/g7.jpg";
+import merchandise3 from "../assets/images/gallery/g4.jpg";
+import merchandise4 from "../assets/images/gallery/g5.webp";
 
 const merchandiseItems = [
   {

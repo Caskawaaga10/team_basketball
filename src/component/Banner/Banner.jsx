@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import sliderImg from "../../assets/images/slider/1.png";
-import sliderImg1 from "../../assets/images/slider/2.png";
-import video from "../../assets/images/gallery/video.mp4"; // Replace with your video file
+import sliderImg from "../../assets/images/slider/img1.jpg";
+import sliderImg1 from "../../assets/images/slider/img2.webp";
+import sliderImg2 from "../../assets/images/slider/img3.webp";
+import sliderImg3 from "../../assets/images/slider/img4.webp";
+import video from "../../assets/images/slider/video1.mp4"; // Replace with your video file
 import { NavLink } from 'react-router-dom';
 
 const Banner = () => {
@@ -11,6 +13,8 @@ const Banner = () => {
   const slides = [
     { type: 'image', src: sliderImg },
     { type: 'image', src: sliderImg1 },
+    { type: 'image', src: sliderImg2 },
+    { type: 'image', src: sliderImg3 },
     { type: 'video', src: video },
   ];
 

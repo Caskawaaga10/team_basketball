@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 
 // Importing images from the assets/image folder
 import img1 from "../../assets/images/gallery/g1.jpg";
-import img2 from "../../assets/images/gallery/g2.jpg";
+import img2 from "../../assets/images/gallery/g2.avif";
 import img3 from "../../assets/images/gallery/g3.jpg";
 import img4 from "../../assets/images/gallery/g4.jpg";
-import img5 from "../../assets/images/gallery/g5.jpg";
-import img6 from "../../assets/images/gallery/g6.jpg";
+import img5 from "../../assets/images/gallery/g5.webp";
+import img6 from "../../assets/images/gallery/g6.webp";
 
 const Gallery = () => {
   const images = [
